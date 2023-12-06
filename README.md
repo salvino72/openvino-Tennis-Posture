@@ -11,6 +11,19 @@ More information on the website https://fidacaro.com/openvino-tennis/
 
 <img src="https://fidacaro.com/content/images/size/w2000/2023/10/openvino-tennis-ai.jpg" >
 
+### How does it work?
+The heart of this application lies in its ability to process and analyze images using a deep neural network. This is done through OpenVINO, a platform provided by Intel that accelerates deep neural network inference operations.
+
+After uploading a player image, the application proceeds with a series of steps:
+
+1- Preprocessing: Adapt the image to the dimensions required by the neural network.
+
+2 - Inference: Analyze the image to identify key points of human posture.
+
+3 - Post-processing: Translates the results of the inference into understandable information, such as the position of the various limbs and the relationship between them.
+
+4 - Analysis: Based on the key points detected, the application can infer specific actions, such as whether a player is executing a serve.
+
 ## Possibility of using the video source to analyze some tennis player positions using OpenVino
 
 <img src="https://fidacaro.com/content/images/2023/10/image-9.png" >
